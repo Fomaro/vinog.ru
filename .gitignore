@@ -1,25 +1,31 @@
-# CakePHP 3
+# Composer
+/vendor/
+composer.lock
 
-/vendor/*
-/config/app.php
+# PHPStorm / IDE
+.idea/
+*.iml
+*.iws
 
-/tmp/cache/models/*
-!/tmp/cache/models/empty
-/tmp/cache/persistent/*
-!/tmp/cache/persistent/empty
-/tmp/cache/views/*
-!/tmp/cache/views/empty
-/tmp/sessions/*
-!/tmp/sessions/empty
-/tmp/tests/*
-!/tmp/tests/empty
+# OS файлы
+.DS_Store
+Thumbs.db
 
-/logs/*
-!/logs/empty
+# Логи и временные файлы
+*.log
+/tmp/
+/cache/
+*.cache
 
-# CakePHP 2
+# Конфигурации с секретами
+config.php
+.env
+.env.local
 
-/app/tmp/*
-/app/Config/core.php
-/app/Config/database.php
-/vendors/*
+# Загруженные пользователем файлы (если будут)
+/assets/images/uploads/
+/uploads/
+
+# Дампы базы данных
+*.sql
+*.sqlite
