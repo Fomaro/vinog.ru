@@ -1,0 +1,31 @@
+# Composer
+/vendor/
+composer.lock
+
+# PHPStorm / IDE
+.idea/
+*.iml
+*.iws
+
+# OS файлы
+.DS_Store
+Thumbs.db
+
+# Логи и временные файлы
+*.log
+/tmp/
+/cache/
+*.cache
+
+# Конфигурации с секретами
+config.php
+.env
+.env.local
+
+# Загруженные пользователем файлы (если будут)
+/assets/images/uploads/
+/uploads/
+
+# Дампы базы данных
+*.sql
+*.sqlite
